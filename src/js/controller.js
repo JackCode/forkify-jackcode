@@ -123,8 +123,6 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-clearBookmarks();
-
 // Initialize Application
 (function () {
   bookmarksView.addHandlerRender(controlLoadBookmarks);
